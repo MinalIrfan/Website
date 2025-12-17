@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Deployment Lab | Minal Irfan (8202)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-code"></i>
+                <span>DeploymentLab</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#deployment"><i class="fas fa-cloud-upload-alt"></i> Deployment</a></li>
+                <li><a href="#methods"><i class="fas fa-cogs"></i> Methods</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="student-info">
+                <span>8202 | Minal Irfan</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Software Deployment <span class="highlight">Process</span> & <span class="highlight">Methods</span></h1>
+                <p class="hero-subtitle">Lab 12 & 13 | Manual Deployment Using XAMPP</p>
+                <div class="hero-badges">
+                    <span class="badge badge-blue">XAMPP</span>
+                    <span class="badge badge-purple">Apache</span>
+                    <span class="badge badge-green">HTML/CSS</span>
+                    <span class="badge badge-orange">Manual Deployment</span>
+                </div>
+                <a href="#deployment" class="btn-primary">View Deployment Steps <i class="fas fa-arrow-down"></i></a>
+            </div>
+            <div class="hero-image">
+                <div class="deployment-animation">
+                    <div class="server-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="deployment-flow">
+                        <div class="flow-step">
+                            <i class="fas fa-code"></i>
+                            <span>Code</span>
+                        </div>
+                        <div class="flow-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="flow-step">
+                            <i class="fas fa-cloud"></i>
+                            <span>Deploy</span>
+                        </div>
+                        <div class="flow-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="flow-step">
+                            <i class="fas fa-globe"></i>
+                            <span>Live</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lab Info Section -->
+    <section class="section info-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lab <span class="highlight">Information</span></h2>
+                <p class="section-subtitle">Comprehensive details about the software deployment lab</p>
+            </div>
+            
+            <div class="info-cards">
+                <div class="info-card">
+                    <div class="info-card-icon" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Lab Objectives</h3>
+                    <ul>
+                        <li>Apply Manual Deployment technique using XAMMP</li>
+                        <li>Understand software deployment process</li>
+                        <li>Learn different deployment methods</li>
+                        <li>Implement version control integration</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-card-icon" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Student Details</h3>
+                    <div class="student-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Name:</span>
+                            <span class="detail-value">Minal Irfan</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Roll No:</span>
+                            <span class="detail-value">8202</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Course:</span>
+                            <span class="detail-value">Software Engineering</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Institution:</span>
+                            <span class="detail-value">CUI Lahore</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-card-icon" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Lab Tasks</h3>
+                    <div class="tasks-list">
+                        <div class="task-item completed">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Task 1: Basic Manual Deployment</span>
+                        </div>
+                        <div class="task-item completed">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Task 2: Research on Deployment Methods</span>
+                        </div>
+                        <div class="task-item completed">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Task 3: Version Control & Deployment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deployment Steps Section -->
+    <section class="section deployment-section" id="deployment">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Manual Deployment <span class="highlight">Steps</span></h2>
+                <p class="section-subtitle">Step-by-step guide to deploy using XAMPP</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">1</div>
+                    <div class="timeline-content">
+                        <h3>Install XAMPP</h3>
+                        <p>Download and install XAMPP from apachefriends.org. Choose appropriate version for your OS (Windows, Linux, macOS).</p>
+                        <div class="code-snippet">
+                            <code>Download: https://www.apachefriends.org</code>
+                        </div>
+                    </div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">2</div>
+                    <div class="timeline-content">
+                        <h3>Prepare Website Files</h3>
+                        <p>Create your HTML, CSS, and JavaScript files. Organize them in a folder with proper structure.</p>
+                        <div class="code-snippet">
+                            <code>mywebsite/<br>├── index.html<br>├── style.css<br>└── images/</code>
+                        </div>
+                    </div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-folder"></i>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">3</div>
+                    <div class="timeline-content">
+                        <h3>Place in htdocs</h3>
+                        <p>Copy your website folder to XAMPP's htdocs directory (default: C:\xampp\htdocs).</p>
+                        <div class="code-snippet">
+                            <code>C:\xampp\htdocs\mywebsite\</code>
+                        </div>
+                    </div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">4</div>
+                    <div class="timeline-content">
+                        <h3>Start Apache Server</h3>
+                        <p>Open XAMPP Control Panel and start the Apache server. Ensure it's running on port 80.</p>
+                        <div class="code-snippet">
+                            <code>XAMPP Control Panel → Apache → Start</code>
+                        </div>
+                    </div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">5</div>
+                    <div class="timeline-content">
+                        <h3>Access Website</h3>
+                        <p>Open browser and navigate to localhost/your-folder-name to view your deployed website.</p>
+                        <div class="code-snippet">
+                            <code>http://localhost/mywebsite</code>
+                        </div>
+                    </div>
+                    <div class="timeline-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deployment Methods Section -->
+    <section class="section methods-section" id="methods">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Deployment <span class="highlight">Methods</span></h2>
+                <p class="section-subtitle">Different strategies for software deployment</p>
+            </div>
+            
+            <div class="methods-grid">
+                <div class="method-card">
+                    <div class="method-header" style="background: linear-gradient(135deg, #ff9a9e, #fad0c4);">
+                        <i class="fas fa-hands"></i>
+                        <h3>Manual Deployment</h3>
+                    </div>
+                    <div class="method-body">
+                        <p>Human operators execute deployment steps manually without automation.</p>
+                        <div class="method-pros-cons">
+                            <div class="pros">
+                                <h4><i class="fas fa-check"></i> Pros</h4>
+                                <ul>
+                                    <li>Full control over process</li>
+                                    <li>Simple to understand</li>
+                                    <li>No automation setup needed</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4><i class="fas fa-times"></i> Cons</h4>
+                                <ul>
+                                    <li>Time-consuming</li>
+                                    <li>Error-prone</li>
+                                    <li>Not scalable</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="method-card">
+                    <div class="method-header" style="background: linear-gradient(135deg, #a1c4fd, #c2e9fb);">
+                        <i class="fas fa-exchange-alt"></i>
+                        <h3>Blue-Green</h3>
+                    </div>
+                    <div class="method-body">
+                        <p>Two identical environments maintained for zero-downtime deployments.</p>
+                        <div class="method-pros-cons">
+                            <div class="pros">
+                                <h4><i class="fas fa-check"></i> Pros</h4>
+                                <ul>
+                                    <li>Zero downtime</li>
+                                    <li>Instant rollback</li>
+                                    <li>Reduced risk</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4><i class="fas fa-times"></i> Cons</h4>
+                                <ul>
+                                    <li>Double infrastructure</li>
+                                    <li>Higher costs</li>
+                                    <li>Complex setup</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="method-card">
+                    <div class="method-header" style="background: linear-gradient(135deg, #84fab0, #8fd3f4);">
+                        <i class="fas fa-sync-alt"></i>
+                        <h3>Rolling Deployment</h3>
+                    </div>
+                    <div class="method-body">
+                        <p>Gradual replacement of instances while keeping application available.</p>
+                        <div class="method-pros-cons">
+                            <div class="pros">
+                                <h4><i class="fas fa-check"></i> Pros</h4>
+                                <ul>
+                                    <li>No downtime</li>
+                                    <li>Resource efficient</li>
+                                    <li>Progressive validation</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4><i class="fas fa-times"></i> Cons</h4>
+                                <ul>
+                                    <li>Version inconsistency</li>
+                                    <li>Longer deployment time</li>
+                                    <li>Complex monitoring</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Submission Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lab <span class="highlight">Submission</span></h2>
+                <p class="section-subtitle">Required deliverables and submission details</p>
+            </div>
+            
+            <div class="submission-grid">
+                <div class="submission-card">
+                    <h3><i class="fas fa-file-code"></i> Task 1 Deliverables</h3>
+                    <ul>
+                        <li>HTML & CSS source files</li>
+                        <li>Screenshots of deployed website</li>
+                        <li>XAMPP running confirmation</li>
+                        <li>Browser access screenshot</li>
+                    </ul>
+                </div>
+                
+                <div class="submission-card">
+                    <h3><i class="fas fa-file-alt"></i> Task 2 Deliverables</h3>
+                    <ul>
+                        <li>1-page research report (PDF)</li>
+                        <li>Comparison table of methods</li>
+                        <li>Pros & cons analysis</li>
+                        <li>Use cases explanation</li>
+                    </ul>
+                </div>
+                
+                <div class="submission-card">
+                    <h3><i class="fab fa-github"></i> Task 3 Deliverables</h3>
+                    <ul>
+                        <li>GitHub repository link</li>
+                        <li>Commit history screenshots</li>
+                        <li>Deployment documentation</li>
+                        <li>GitHub Pages URL</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="conclusion-box">
+                <h3><i class="fas fa-certificate"></i> Lab Completion Status</h3>
+                <p>This website demonstrates successful manual deployment using XAMPP. All lab objectives have been achieved including understanding deployment processes, researching methods, and implementing version control integration.</p>
+                <div class="status-indicator">
+                    <div class="status-item active">
+                        <div class="status-dot"></div>
+                        <span>Task 1: Completed</span>
+                    </div>
+                    <div class="status-item active">
+                        <div class="status-dot"></div>
+                        <span>Task 2: Completed</span>
+                    </div>
+                    <div class="status-item active">
+                        <div class="status-dot"></div>
+                        <span>Task 3: Completed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i>
+                    <span>DeploymentLab</span>
+                </div>
+                <div class="footer-info">
+                    <p><i class="fas fa-user-graduate"></i> Minal Irfan | Roll No: 8202</p>
+                    <p><i class="fas fa-university"></i> COMSATS University Islamabad, Lahore</p>
+                    <p><i class="fas fa-calendar-alt"></i> Lab 12 & 13: Software Deployment Process & Methods</p>
+                </div>
+                <div class="footer-tech">
+                    <h4>Technologies Used:</h4>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">XAMPP</span>
+                        <span class="tech-tag">Apache</span>
+                        <span class="tech-tag">Manual Deployment</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2023 Software Deployment Lab. All rights reserved. | This website is manually deployed using XAMPP for educational purposes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <a href="#home" class="fab-btn">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
